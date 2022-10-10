@@ -5,7 +5,7 @@ metadata:
   labels:
     app: jenkins-leader
 spec:
-  storageClassName: openebs-hostpath
+  storageClassName: local-hostpath
   accessModes:
     - ReadWriteOnce
   resources:
